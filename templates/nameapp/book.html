@@ -1,0 +1,25 @@
+{% extends "nameapp/base.html" %}
+
+{% block content %}
+<h2 align = Center>Company Financial Statment</h2>
+<br>
+<br>
+<section id="gridSystem">
+<p align = Center><strong> 종목코드:{{ code }}</strong></p>
+<p align = Center><strong> 연결연간 </strong></p>
+{% for item in fndata_dy %}
+<div class="row show-grid">
+<p align = Center>{{ item.date }} 매출액:{{ item.sale }} 
+    영업이익:{{ item.profit }} 순이익:{{ item.netincome }}</p>
+</div>
+{% endfor %}
+<p align = Center><strong> 연결분기 </strong></p>
+{% for item in fndata_dq %}
+<div class="row show-grid">
+<p align = Center>{{ item.date }} 매출액:{{ item.sale }} 
+    영업이익:{{ item.profit }} 순이익:{{ item.netincome }}</p>
+</div>
+{% endfor %}
+</section>
+
+{% endblock content %}

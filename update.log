@@ -1,0 +1,136 @@
+[INFO|comp_stat_db_update.py:493]2019-09-16 21:22:59,009>LOG START
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:23:02,297>A316140 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:23:02,375>A316140 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:449]2019-09-16 21:23:02,500>update_db_companystat 완료
+[INFO|comp_stat_db_update.py:471]2019-09-16 21:23:05,141>update_db_companyextr 완료
+[INFO|comp_stat_db_update.py:493]2019-09-16 21:51:00,777>LOG START
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:52:29,150>A168490 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:52:29,166>A168490 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:52:29,182>A168490 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:52:29,182>A168490 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:16,778>A088980 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:16,794>A088980 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:16,809>A088980 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:16,841>A088980 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:22,335>A096300 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:22,351>A096300 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:22,351>A096300 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:55:22,366>A096300 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:56:05,463>A099340 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:56:05,463>A099340 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:56:05,478>A099340 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:56:05,494>A099340 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:57:09,810>A094800 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:57:09,826>A094800 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:57:09,841>A094800 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:57:09,841>A094800 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:58:11,208>A099350 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:58:11,208>A099350 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:58:11,224>A099350 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:58:11,224>A099350 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:59:15,810>A316140 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 21:59:15,873>A316140 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:01:12,843>A153360 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:01:12,922>A153360 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:01:13,453>A152550 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:01:13,469>A152550 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:01:13,484>A152550 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:01:13,484>A152550 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:04:35,582>A159650 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:04:35,629>A159650 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:449]2019-09-16 22:04:55,068>update_db_companystat 완료
+[INFO|comp_stat_db_update.py:471]2019-09-16 22:19:18,322>update_db_companyextr 완료
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:22:00,165>A319660 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:22:00,227>A319660 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:23:36,013>A323280 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:23:36,091>A323280 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:23:50,936>A319400 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:23:50,999>A319400 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:25:15,509>A322780 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:25:15,603>A322780 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:26:26,778>A323230 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:26:26,841>A323230 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:27:34,234>A323940 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:27:34,294>A323940 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:28:05,568>A317320 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:28:05,631>A317320 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:33:20,488>A317030 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:33:20,551>A317030 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:36:46,245>A317240 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:36:46,323>A317240 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:41:55,197>A321260 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:271]2019-09-16 22:41:55,259>A321260 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:449]2019-09-16 22:42:54,606>update_db_companystat 완료
+[INFO|comp_stat_db_update.py:207]2019-09-16 22:43:09,107>A311390 indexTable2 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:207]2019-09-16 22:43:09,139>A311390 indexTable3 테이블 가져오기 실패
+[INFO|comp_stat_db_update.py:471]2019-09-16 23:06:52,120>update_db_companyextr 완료
+[INFO|comp_stat_db_update.py:493]2019-09-18 19:15:15,982>LOG START
+[INFO|comp_stat_db_update_speedy.py:433]2019-10-09 20:25:09,605>LOG START
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 20:25:13,821>A316140 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 20:25:13,901>A316140 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:389]2019-10-09 20:25:14,028>update_db_companystat 완료
+[INFO|comp_stat_db_update_speedy.py:411]2019-10-09 20:25:16,354>update_db_companyextr 완료
+[INFO|comp_stat_db_update_speedy.py:456]2019-10-09 20:58:56,000>LOG START
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 20:59:44,407>A293940 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 20:59:44,533>A293940 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:00:16,869>A168490 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:00:16,880>A168490 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:00:16,891>A168490 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:00:16,901>A168490 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:35,411>A088980 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:35,426>A088980 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:35,441>A088980 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:35,457>A088980 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:40,642>A096300 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:40,652>A096300 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:40,662>A096300 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:02:40,672>A096300 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:03:21,425>A099340 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:03:21,439>A099340 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:03:21,450>A099340 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:03:21,460>A099340 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:04:18,361>A094800 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:04:18,376>A094800 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:04:18,396>A094800 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:04:18,408>A094800 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:05:12,891>A099350 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:05:12,912>A099350 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:05:12,926>A099350 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:05:12,941>A099350 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:06:13,867>A316140 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:06:13,946>A316140 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:07:57,237>A153360 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:07:57,287>A153360 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:07:57,775>A152550 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:07:57,789>A152550 highlight_D_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:07:57,800>A152550 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:07:57,809>A152550 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:10:52,099>A159650 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:10:52,186>A159650 highlight_B_Q 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:389]2019-10-09 21:11:08,387>update_db_companystat 완료
+[INFO|comp_stat_db_update_speedy.py:456]2019-10-09 21:13:54,450>LOG START
+[INFO|comp_stat_db_update_speedy.py:434]2019-10-09 21:26:02,794>update_db_companyextr 완료
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:28:25,399>A319660 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:28:25,470>A319660 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:29:56,894>A323280 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:29:56,961>A323280 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:30:09,765>A319400 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:30:09,832>A319400 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:31:31,689>A322780 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:31:31,762>A322780 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:32:43,335>A323230 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:32:43,405>A323230 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:33:48,327>A323940 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:33:48,396>A323940 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:34:15,050>A317320 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:34:15,158>A317320 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:38:54,256>A317030 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:38:54,341>A317030 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:41:57,456>A320000 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:41:57,550>A320000 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:41:59,086>A317240 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:41:59,161>A317240 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:46:29,850>A321260 highlight_D_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:271]2019-10-09 21:46:29,921>A321260 highlight_B_Y 테이블 가져오기 실패
+[INFO|comp_stat_db_update_speedy.py:389]2019-10-09 21:47:21,333>update_db_companystat 완료
+[INFO|comp_stat_db_update_speedy.py:434]2019-10-09 22:06:23,188>update_db_companyextr 완료
