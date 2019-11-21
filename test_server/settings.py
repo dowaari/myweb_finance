@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'nameapp',
     'rangefilter',
     'admin_numeric_filter',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

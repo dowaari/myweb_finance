@@ -110,3 +110,18 @@ class CompanyExtr(models.Model):
         verbose_name = '재무비율' # admin의 table name을 변경한다.
         verbose_name_plural = '재무비율 테이블'
 
+
+class KospiPredict(models.Model):
+    date = models.DateField("날짜", max_length=10, null=False, unique=True)
+    close = models.FloatField("종가", null=True)
+    open = models.FloatField("시가", null=True)
+    real_return = models.FloatField("실제값", null=True)
+    pred_return = models.FloatField("예측값", null=True)
+    signal = models.IntegerField("매매신호", null=True)
+
+    def __str__(self):
+        return '날짜:%s, 매매신호:%s' % (self.date, self.signal) 
+
+    class Meta:
+        verbose_name = '코스피 예측'  # admin의 table name을 변경한다.
+        verbose_name_plural = '코스피 예측정보 테이블'

@@ -1,0 +1,15 @@
+{% extends "nameapp/base.html" %}
+
+{% block content %}
+
+<h2 align = Center>KOSPI PREDICT TABLE</h2>
+<br>
+<section id="gridSystem">
+{% for pred in predict %}
+<div class="row show-grid">
+<p align = Center>날짜:{{ pred.date}} 종가:{{ pred.close }} 신호:{{ pred.signal }} 예측값:{{ pred.pred_return }}</p>
+</div>
+{% endfor %}
+</section>
+
+{% endblock content %}

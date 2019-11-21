@@ -8,6 +8,10 @@ urlpatterns = [
     path('book/', views.addressesbook, name='addressesbook'),
     path('book-search/', views.get_contacts, name='get_contacts'),
     path('notfound/', views.notfound, name='notfound'),
+    path('predict/', views.predict_kospi, name='predict_kospi'),
+    path('api/predict/', views.KospiPredictAPIView.as_view(), name="predict_kospi_api"),
+    path('api/predict-serialize/', views.KospiPredictSerializeAPIView.as_view()),
+    path('chart', views.ChartView.as_view(), name="chart"),
 ]
 
 # urlpatterns = patterns('',
