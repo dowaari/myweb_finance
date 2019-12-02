@@ -4,6 +4,7 @@ import django
 django.setup()
 from nameapp.models import KospiPredict
 from django.db import IntegrityError
+from django_pandas.io import read_frame
 
 import pandas as pd
 import numpy as np
@@ -145,6 +146,50 @@ def classify_trinary(values):
     return target
 
 
+def strategy_run(df_local=None):
+    
+    SELL_TIME = 3
+    SELL_SIG = -1
+    BUY_SIG = 1
+
+    ts_list=[]
+    time_count= 0
+    
+    for idate, row in df_local[['prev_signal']].iterrows():
+
+        전일신호 = int(row)
+        sell_signal = 0
+        buy_signal = 0
+        
+        #매도 조건: 
+        매도조건 = (전일신호 == SELL_SIG) and (time_count > 0) 
+        if 매도조건== True:
+            sell_signal= 1
+            time_count= 0
+            
+        매도조건 = (time_count > SELL_TIME) 
+        if 매도조건== True:
+            sell_signal= 1
+            time_count= 0  
+        
+        # 매수 조건
+        매수조건 = (전일신호 == BUY_SIG) and (time_count == 0) 
+        if 매수조건 == True:
+            buy_signal = 1
+            time_count = 1
+            
+        매수조건 = (전일신호 == 1)
+        if 매수조건 == True:
+            time_count = 1 
+        
+        ts_list.append([idate, buy_signal, sell_signal])
+        
+        if time_count > 0:
+            time_count += 1 
+   
+    return pd.DataFrame(data=ts_list, columns=['date','BUY','SELL'])
+
+
 if __name__ == "__main__":
 
     # (1) FDR로 자료수집 (1년치)
@@ -231,11 +276,12 @@ if __name__ == "__main__":
     predictions = model.predict(test_X)
     score = model.evaluate(test_X, test_Y, verbose=0)
     print('Test loss:', score) # this is mean_squared_error 
+
 ###########################################################
 
     df_result = pd.DataFrame(test_Y, columns= ['real'])
     df_result['pred'] = pd.Series(predictions.reshape(-1))
-    yhat = ta.DEMA(np.array(df_result['pred'].astype(float)), timeperiod=5) # 디노이징 이동평균
+    yhat = ta.DEMA(np.array(df_result['pred'].astype(float)), timeperiod=3) # 디노이징 이동평균
     df_result['pred_dn'] = pd.Series(yhat, index = df_result.index)
     df_result['pred_change'] = (df_result['pred_dn'] - df_result['pred_dn'].shift(3))
     df_result['classify'] = df_result['pred_change'].transform(classify_trinary)    
@@ -255,7 +301,7 @@ if __name__ == "__main__":
     # real_return은 denoising 전의 값으로
     # real_return, pred_return 소수점 2째자리까지
 
-    #DB저장
+######################################################## #DB저장
     for i in range(df_result_all.shape[0]):
         try:
             KospiPredict(
@@ -279,6 +325,37 @@ if __name__ == "__main__":
             else: # 그외 중복 ignore
                 continue
 
+######################################################## 백테스팅
+
+    #df_result_bt = df_result_all[:].copy()
+    base_kospi = KospiPredict.objects.all() # DB에 있는 내용으로 백테스팅한다.
+    df_result_bt = read_frame(base_kospi, fieldnames=['date', 'close', 'open', 'signal'])
+    df_result_bt['date'] = df_result_bt['date'].astype(np.str) # 주의
+    df_result_bt.set_index('date',inplace=True)
+
+    df_result_bt['prev_signal'] = df_result_bt['signal'].shift(1)
+    df_result_bt['prev_close'] = df_result_bt['close'].shift(1)
+    df_result_bt.fillna(0, inplace=True) # 결측값처리해야한다.
+
+    df_signal= strategy_run(df_result_bt) # 입력 데이터프레임 형식주의, index는 date, prev_signal 컬럼이 있어야함. 
+    df_result_all = pd.merge(df_result_all, df_signal, on='date', how='inner')
+
+######################################################## #DB저장
+    for i in range(df_result_all.shape[0]):
+        try:
+            KospiPredict(
+                buy = df_result_all.iloc[i,8],
+                sell = df_result_all.iloc[i,9]).save()
+        except IntegrityError:
+            obj = KospiPredict.objects.get(date = df_result_all.iloc[i,0])
+            if obj.date == now_time: # 오늘날짜는 덮어씌우기
+                obj.buy = df_result_all.iloc[i,8]
+                obj.sell = df_result_all.iloc[i,9]
+                obj.save()
+            else: # 그외 중복 ignore
+                continue
 
     print('코스피예측값 업데이트 완료')
+
+
 

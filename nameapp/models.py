@@ -118,6 +118,8 @@ class KospiPredict(models.Model):
     real_return = models.FloatField("실제값", null=True)
     pred_return = models.FloatField("예측값", null=True)
     signal = models.IntegerField("매매신호", null=True)
+    buy = models.IntegerField("매수시점", null=True)
+    sell = models.IntegerField("매도시점", null=True)
 
     def __str__(self):
         return '날짜:%s, 매매신호:%s' % (self.date, self.signal) 

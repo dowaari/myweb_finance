@@ -40,7 +40,7 @@
           },
 
           title: { 
-            text: '코스피 지수 예측지표' 
+            text: '모의매매 백테스팅' 
           }, 
 
           rangeSelector: {
@@ -84,26 +84,23 @@
             split: true
           },
 
-          series: [{
-              name: '단기변동예측',          
-              data: data.pred,
-              color: 'rgba(0,200,0,.6)',
-              lineWidth: 2
-          }, 
-
-          {
-              name: '신호',          
-              data: data.signal,
-              color: 'rgba(255,0,0,.6)',
-              lineWidth: 2
-          },  
-          
+          series: [          
           {
               name: '종가',          
               data: data.close,
               yAxis: 1,
-              lineWidth: 3
-          }],
+              lineWidth: 3,
+              id: 'close',
+          },
+
+          {
+            type: 'flags',
+            data: data.label,
+            yAxis: 1,
+            onSeries: 'close',
+            shape: 'squarepin',
+            width: 16
+        }],
 
           legend: {
             enabled: true, 
@@ -193,7 +190,7 @@
           },
 
           title: { 
-            text: '모의매매 백테스팅' 
+            text: '코스피지수 예측지표' 
           }, 
 
           rangeSelector: {

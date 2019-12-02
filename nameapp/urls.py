@@ -12,6 +12,7 @@ urlpatterns = [
     path('api/predict/', views.KospiPredictAPIView.as_view(), name="predict_kospi_api"),
     path('api/predict-serialize/', views.KospiPredictSerializeAPIView.as_view()),
     path('chart', views.ChartView.as_view(), name="chart"),
+    path('chart1', views.ChartView1.as_view(), name="chart1"),
 ]
 
 # urlpatterns = patterns('',
